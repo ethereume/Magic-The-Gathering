@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dodatkowy"
+        android:id="@+id/opis_dodatkowy"
+        style="@style/zwykle_dodatkowe"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodatkowe_"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/plus_mniejszy"
+            android:id="@+id/plus_datatkowy"
+            android:layout_gravity="bottom"
+            android:singleLine="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp" />
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="0"
+            android:gravity="center"
+            android:id="@+id/dodatek_opis_dodatkowy"
+            style="@style/ustawienia_energy_dodatkowe" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/minus_mniejszy"
+            android:id="@+id/minus_dodatkowy"
+            android:layout_gravity="bottom"
+            android:singleLine="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp" />
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:keepScreenOn="true"
+    android:id="@+id/Layout_glowny"
+    style="@style/back_application">
+    <!--
+    Początek layotu
+    -->
+
+    <!-- baza pod reszte layotu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/players"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <!-- koniec bazy dla layoutu -->
+</ScrollView>

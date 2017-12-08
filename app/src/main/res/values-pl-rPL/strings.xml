@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MAGIC: THE GATHERING</string>
+    <string name="opis_imie">Imię</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="opis_energia">Energia</string>
+    <string name="parametr">Dadatkowy parametr</string>
+    <string name="potwierdzam">Ok</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="pusty_parametr">Ta wartość nie może być pusta</string>
+    <string name="domyslna_wartosc">Domyślna wartość</string>
+    <string name="restart_liczniki">Restartuj liczniki</string>
+    <string name="dodaj_tlo">Dodaj tło</string>
+    <string name="restart_tlo">Restartuj tło</string>
+    <string name="liczba_graczy">Liczba graczy</string>
+    <string name="faq">FAQ</string>
+    <string name="nie_znaleziono">Nie znaleziono pliku</string>
+    <string name="nie_poprawny">Ten plik nie jest obrazkiem</string>
+    <string name="wybierz_obrazek">Wybierz obrazek</string>
+    <string name="parametr_name">Ustaw imię gracza</string>
+    <string name="informacje">Informacje o aplikacji </string>
+    <string name="format">To jest nieprawidłowy format pliku</string>
+    <string name="two">2 graczy</string>
+    <string name="three">3 graczy</string>
+    <string name="four">4 graczy</string>
+    <string name="zamknij_button">Zamknij</string>
+    <string name="zamknij_mana">Pokaż energię</string>
+    <string name="opis_apki">
+            <item>1) Maksymalnie może być 4 graczy</item>\n
+            <item>2) Początkowo dostępne są dwa liczniki życia i energi</item>\n
+            <item>3) Można dodać 4 dodatkowe liczniki dla każdego gracza</item>\n
+            <item>4) Liczniki liczą od 0 do 99 </item>\n
+            <item>5) Można ustawić imię, klikając na text "imię"</item>\n
+            <item>6) Można ustawić swoje własne tło</item>\n
+            <item>7) Można zrestartować liczniki </item>\n
+    </string>
+</resources>

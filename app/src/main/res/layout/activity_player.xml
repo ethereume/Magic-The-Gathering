@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/player">
+
+    <!--
+    Życia
+    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/opis_imie"
+        android:gravity="center"
+        android:id="@+id/imie_"
+        style="@style/ustawienia_life"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/life_score"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/plus"
+            android:id="@+id/plus_0"
+            android:layout_gravity="bottom"
+            android:singleLine="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp" />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="20"
+            android:gravity="center"
+            android:id="@+id/life_opis_0"
+            style="@style/ustawienia_life_count" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/minus"
+            android:id="@+id/minus_0"
+            android:singleLine="true"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="2dp" />
+
+    </LinearLayout>
+    <!--
+    Koniec życia
+     -->
+    <!--
+    Energia
+    -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kontener_mana"
+        android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/opis_energia"
+        android:gravity="center"
+        style="@style/ustawienia_energy"
+        android:id="@+id/mana_" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/energy_score"
+        android:weightSum="1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/plus_mniejszy"
+            android:id="@+id/plus_energy_0"
+            android:layout_gravity="bottom"
+            android:singleLine="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="0"
+            android:gravity="center"
+            android:id="@+id/energy_opis_0"
+            style="@style/ustawienia_energy_count" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/minus_mniejszy"
+            android:layout_weight="0"
+            android:id="@+id/minus_energy_0"
+            android:layout_gravity="bottom"
+            android:singleLine="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginBottom="3dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+    <!--
+   Koniec energi
+   -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodatki_kontent"
+        android:weightSum="1"
+        android:layout_marginTop="5dp">
+
+    </LinearLayout>
+    <!-- Dodatkowe liczniki -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/dodaj_inne"
+            android:id="@+id/dodatkowy_button_plus"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true"
+            android:layout_marginRight="13dp" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/usun"
+            android:id="@+id/dodatkowy_button_minus"
+            android:layout_gravity="center_horizontal"
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <!-- koniec dodatkowych licznikow-->
+
+</LinearLayout>
+    <!-- koniec pierwszego gracza  -->

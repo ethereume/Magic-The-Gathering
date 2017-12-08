@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MAGIC: THE GATHERING</string>
+    <string name="action_settings">Settings</string>
+    <string name="opis_imie">Name</string>
+    <string name="opis_energia">Mana</string>
+    <string name="parametr">Additional parameter</string>
+    <string name="potwierdzam">Ok</string>
+    <string name="anuluj">Cancel</string>
+    <string name="pusty_parametr">This parameter canot be empty</string>
+    <string name="domyslna_wartosc">Default value</string>
+    <string name="restart_liczniki">Restart counters</string>
+    <string name="dodaj_tlo">Add background</string>
+    <string name="restart_tlo">Restart background</string>
+    <string name="liczba_graczy">Number of players</string>
+    <string name="faq">FAQ</string>
+    <string name="nie_znaleziono">File not Found</string>
+    <string name="nie_poprawny">This file is not a picture</string>
+    <string name="wybierz_obrazek">Select Picture</string>
+    <string name="parametr_name">Set player name</string>
+    <string name="informacje">Application information</string>
+    <string name="format">This is an invalid file format</string>
+    <string name="two">2 players</string>
+    <string name="three">3 players</string>
+    <string name="four">4 players</string>
+    <string name="zamknij_button">Close</string>
+    <string name="zamknij_mana">Show Mana</string>
+    <string name="opis_apki">
+            <item>1) Can play up to 4 players</item>\n
+            <item>2) Initially, there are two counters. Life and energy</item>\n
+            <item>3) It can be add 4 additional counteres</item>\n
+            <item>4) Counters count form 0 to 99</item>\n
+            <item>5) You can set name by click text "name"</item>\n
+            <item>6) You can set your own background</item>\n
+            <item>7) You can restart counters</item>\n
+    </string>
+</resources>

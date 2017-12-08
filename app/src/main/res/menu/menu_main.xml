@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item android:id="@+id/info" android:title="@string/informacje" />
+    <group android:checkableBehavior="single" android:id="@+id/player_box">
+        <item android:id="@+id/two"
+            android:title="@string/two" android:checked="true" />
+        <item android:id="@+id/three"
+            android:title="@string/three" />
+        <item android:id="@+id/four"
+            android:title="@string/four" />
+    </group>
+    <item android:id="@+id/hide_menu" android:title="@string/zamknij_mana" android:checkable="true" />
+    <item android:id="@+id/restart" android:title="@string/restart_liczniki" />
+    <item android:id="@+id/add_tlo" android:title="@string/dodaj_tlo" />
+    <item android:id="@+id/restart_tlo" android:title="@string/restart_tlo" />
+</menu>
